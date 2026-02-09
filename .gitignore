@@ -1,0 +1,22 @@
+# --- Python (Bytecodes compilados) ---
+__pycache__/
+*.pyc
+
+# --- Ambientes Virtuais (Nunca suba isso!) ---
+venv/
+.venv/
+env/
+
+# --- IDEs e Editores (Configurações locais) ---
+.idea/
+.vscode/
+*.swp
+
+# --- Windows (Lixo de sistema) ---
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Streamlit (Segurança) ---
+# Se você usar segredos (API keys) no futuro, isso protege eles
+.streamlit/secrets.toml
